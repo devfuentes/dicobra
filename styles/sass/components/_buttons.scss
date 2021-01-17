@@ -1,0 +1,18 @@
+// BOTONES
+.btn {
+  border-radius: 15px;
+  background: $white;
+  color: $black;
+  padding: 5px 20px;
+  border: 0;
+  font-weight: $font-black;
+
+  &.btn-primary {
+    background: $blue;
+    color: $white;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

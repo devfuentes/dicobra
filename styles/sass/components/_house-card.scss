@@ -1,0 +1,69 @@
+.house {
+  margin: 1.5rem 0;
+}
+
+.house-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 4rem 0;
+
+  & .house-card__image {
+    width: 45%;
+    img {
+      border-radius: 14px;
+    }
+  }
+
+  & .house-card__content {
+    width: 55%;
+  }
+
+  & .house-card__title {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  & .house-card__list {
+    margin: 5px 0 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+    li {
+      margin-right: 15px;
+      position: relative;
+      &::after {
+        content: "/";
+        position: absolute;
+        top: 50%;
+        right: -14px;
+        transform: translate(-50%, -50%);
+      }
+      &:last-child {
+        margin-right: 0;
+        &::after {
+          content: "";
+        }
+      }
+    }
+  }
+
+  & .house-card__desc {
+    margin-top: 1rem;
+    color: $text-gray;
+    line-height: calc(1em + 7px);
+  }
+
+  & .house-card__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .house-card__date {
+    color: $blue;
+    font-size: 12px;
+  }
+}

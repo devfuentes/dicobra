@@ -1,0 +1,29 @@
+body {
+  font-size: 18px;
+  font-family: $primary-font;
+  font-weight: $font-roman;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(./fonts/Avenir-roman.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(./fonts/Avenir-heavy.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(./fonts/Avenir-black.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Signika;
+  src: url(./fonts/Signika-semiBold.ttf);
+  font-weight: 600;
+}

@@ -4,6 +4,236 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dicobra</title>
+    <link rel="stylesheet" href="styles/css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="nav">
+      <div class="ed-container s-cross-center">
+        <div class="ed-item s-50 l-20">
+          <img src="img/logo.svg" alt="Logo dicobra" />
+        </div>
+        <div class="ed-item s-50 l-80">
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link" href="">ENCUENTRA UNA <br> PROPIEDAD</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="">NOSOTROS</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="">CONTACTO</a>
+              </li class="navigation__item">
+              <ul class="nav-social navigation__item">
+                <li class="nav-social__item"><a href=""><img src="img/icons/instagram.svg" alt="Logotipo Instagram"></a></li>
+                <li class="nav-social__item"><a href=""><img src="img/icons/facebook.svg" alt="Logotipo Facebook"></a></li>
+                <li class="nav-social__item"><a href=""><img src="img/icons/whatsapp.svg" alt="Logotipo Whatsapp"></a></a></li>
+              </ul>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero__title">Invierte en felicidad comprando la casa de tus sueños.</h1>
+    </section>
+
+    <section class="search">
+      <div class="ed-container l-main-center">
+        <div class="ed-item s-100 l-80 l-main-center">
+          <form action="" class="search-form">
+            <h2 class="search-form__title">¿DÓNDE QUIERES VIVIR?</h2>
+            <div class="search-forn__row">
+              <div class="search-form__icon">
+                <img src="img/icons/search.svg" alt="Icono de busqueda">
+              </div>
+              <input class="search-form__input search-form__input--top" placeholder="Busca por ciudad, delegación o colonia" type="text">
+            </div>
+            <div class="search-forn__row">
+              <select class="search-form__select search-form__select--type" name="type" id="">
+                <option value="1">Renta</option>
+                <option value="1">Venta</option>
+              </select>
+              <div class="search-form__row--range">
+                <select class="search-form__select search-form__select--range" name="type" id="">
+                  <option value="1">Renta</option>
+                  <option value="1">Venta</option>
+                </select>
+                <select class="search-form__select search-form__select--range" name="type" id="">
+                  <option value="1">Renta</option>
+                  <option value="1">Venta</option>
+                </select>
+              </div>
+              
+            </div>
+
+            <div class="search-form__row search-form__row--end">
+              <input class="btn btn-primary search-form__button" type="submit" value="BUSCAR">
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPIEDADES RECIENTES -->
+    <section class="house">
+      <div class="ed-container l-main-center">
+        <div class="ed-item s-100 l-80">
+          <article class="house-card">
+            <div class="house-card__image">
+              <img src="img/casa-busqueda.jpg" alt="Casa en venta san mateo atenco">
+            </div>
+            <div class="house-card__content">
+              <h2 class="house-card__title">
+                Casa en venta en San Mateo Atenco Mex.
+              </h2>
+              <ul class="house-card__list">
+                <li>1,678m2</li>
+                <li>3 recámaras</li>
+                <li>3 baños</li>
+                <li>3 estacionamiento</li>
+              </ul>
+              <p class="house-card__desc">
+                Residencial Nápoles a una cuadra de  Tollocan sala comedor cocina, 2 baños completos, 3 recámaras, 3 lugares de estacionamiento, patio de servicio y jardín trasero.
+              </p>
+
+              <div class="house-card__links">
+                <span class="house-card__date">ACTUALIZADO HACE 20 DÍAS</span>
+                <a href="#" class="btn btn-primary">CONTACTAR</a>
+              </div>
+            </div>
+          </article>
+          <article class="house-card">
+            <div class="house-card__image">
+              <img src="img/casa-busqueda2.jpg" alt="Casa en venta san mateo atenco">
+            </div>
+            <div class="house-card__content">
+              <h2 class="house-card__title">
+                Casa en venta en San Mateo Atenco Mex.
+              </h2>
+              <ul class="house-card__list">
+                <li>1,678m2</li>
+                <li>3 recámaras</li>
+                <li>3 baños</li>
+                <li>3 estacionamiento</li>
+              </ul>
+              <p class="house-card__desc">
+                Residencial Nápoles a una cuadra de  Tollocan sala comedor cocina, 2 baños completos, 3 recámaras, 3 lugares de estacionamiento, patio de servicio y jardín trasero.
+              </p>
+
+              <div class="house-card__links">
+                <span class="house-card__date">ACTUALIZADO HACE 20 DÍAS</span>
+                <a href="#" class="btn btn-primary">CONTACTAR</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END PROPIEDADES -->
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="faqs">
+      <div class="ed-container">
+        <div class="ed-item s-100">
+          <h2 class="color-blue faqs__title">PREGUNTAS FRECUENTES</h2>
+        </div>
+
+        <article class="faq">
+          <div class="faq__header">
+            <h3 class="faq__title">¿Qué necesito para apartar la propiedad?</h3>
+            <img src="img/icons/arrow-down.svg" alt="Arrow down">
+          </div>
+          <div class="faq__desc">
+            <p>
+              100% el valor de la vivienda
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__header">
+            <h3 class="faq__title">¿Qué créditos se reciben?</h3>
+            <img src="img/icons/arrow-down.svg" alt="Arrow down">
+          </div>
+          <div class="faq__desc">
+            <p>
+              Todos los créditos son aceptados
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__header">
+            <h3 class="faq__title">¿A qué distancia de CDMX se encuentran los desarrollos?</h3>
+            <img src="img/icons/arrow-down.svg" alt="Arrow down">
+          </div>
+          <div class="faq__desc">
+            <p>
+              Todas nuestras casas se encuentran a 40 minutos de CDMX aproximadamente 
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- END PREGUNTAS FRECUETNES -->
+
+    <!-- CONTACTO -->
+    <section class="contact">
+      <div class="ed-container l-main-center">
+        <div class="ed-item s-100 l-75">
+          <form class="form form--dark form__home" action="">
+            <h2 class="form__title">CONTACTO</h2>
+            <div class="form__row">
+              <label class="form__label" for="email">Email</label>
+              <input class="form__input" type="email">
+            </div>
+
+            <div class="form__group">
+                <div class="form__column">
+                  <div class="form__row">
+                    <label class="form__label" for="email">Nombre</label>
+                    <input class="form__input" type="email">
+                  </div>
+                </div>
+                <div class="form__column">
+                  <div class="form__row">
+                    <label class="form__label" for="email">Teléfono</label>
+                    <input class="form__input" type="email">
+                  </div>
+                </div>
+            </div>
+
+            <div class="form__row">
+              <label class="form__label" for="email">Mensaje</label>
+              <textarea placeholder="Hola,  me interesa esta propiedad..." class="form__input" name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+              
+            </div>
+
+            <div class="form__row form__row--end">
+              <a class="btn btn-primary" href="">Llamar</a>
+              <input class="btn btn-primary form__submit" type="submit" value="Enviar whatsapp">
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACTO -->
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="ed-container">
+        <div class="ed-item s-100">
+          <ul class="footer__list">
+            <li> <img src="img/logo-footer.svg" alt="Logo dicobra"> </li>
+            <li><a class="footer__btn" href="">¡Invierte en felicidad!</a></li>
+            <li><a class="footer__link" href="">contacto@grupodicobra.com</a></li>
+            <li><a class="footer__link" href="">Tel. 7223969383</a></li>
+            <li><a class="footer__link" href="">San Lucas, 52100 San Mateo Atenco, Méx.</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
 </html>

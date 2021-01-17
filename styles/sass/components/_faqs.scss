@@ -1,0 +1,38 @@
+.faqs {
+  background: $gray-section;
+  padding: 3rem 0 5rem 0;
+  margin-bottom: 0;
+
+  & .faqs__title {
+    margin-bottom: 3rem;
+    font-size: 28px;
+  }
+}
+
+.faq {
+  width: 100%;
+  border-radius: 14px;
+  background: $white;
+  padding: 1.5rem;
+
+  & .faq__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  & .faq__title {
+    margin: 0;
+    font-weight: $font-heavy;
+  }
+
+  & .faq__desc {
+    margin-top: 1rem;
+    p {
+      margin: 0;
+      color: $text-gray;
+    }
+  }
+}

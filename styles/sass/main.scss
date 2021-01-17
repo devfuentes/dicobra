@@ -8,8 +8,16 @@
 @import "base/typography.scss";
 
 // LAYOUT
-
+@import "layout/nav";
+@import "layout/form";
+@import "layout/footer";
 // COMPONENTS
+@import "components/hero";
+@import "components/search";
+@import "components/buttons";
+@import "components/house-card";
+@import "components/faqs";
+@import "components/contact";
 
 //HELPERS
 @import "utils/helpers";
