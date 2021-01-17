@@ -12,6 +12,11 @@
     color: $white;
   }
 
+  &.btn--black {
+    background: $black;
+    color: $white;
+  }
+
   &:hover {
     text-decoration: none;
   }

@@ -7225,6 +7225,10 @@ body {
   background: #4c96d7;
   color: #fff;
 }
+.btn.btn--black {
+  background: #1c1c1c;
+  color: #fff;
+}
 .btn:hover {
   text-decoration: none;
 }
@@ -7326,12 +7330,96 @@ body {
   color: #919191;
 }
 
-.contact {
+.contact,
+.contact-page {
   width: 100%;
   background: #919191;
   margin-bottom: 0;
-  mix-blend-mode: multiply;
   padding-bottom: 2rem;
+}
+
+.contact-page {
+  padding: 5rem;
+}
+.contact-page .contact-page__title {
+  color: #fff;
+  font-family: "Signika";
+  margin-bottom: 3rem;
+}
+.contact-page .contact-page__subtitle {
+  font-family: "Signika";
+}
+
+.nosotros {
+  padding: 2rem;
+}
+.nosotros p {
+  line-height: calc(1em + 7px);
+  margin: 0;
+}
+
+.mision {
+  background: #e3e3e3;
+  padding: 5rem;
+  width: 100%;
+  margin-bottom: 0;
+}
+.mision .mision__title {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: calc(1em + 7px);
+}
+.mision .mision__text {
+  padding: 0 1rem;
+  line-height: calc(1em + 7px);
+  margin-bottom: 0;
+}
+
+.servicios {
+  width: 100%;
+  padding: 2rem;
+  background: #1c1c1c;
+  color: #4c96d7;
+  margin-bottom: 0;
+}
+.servicios .servicios__title {
+  font-weight: 800;
+}
+.servicios .servicio__name {
+  font-family: "Signika";
+  font-size: 30px;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.projects .projects__title {
+  width: 35%;
+}
+.projects .projects__image {
+  width: 65%;
+}
+.projects .projects__image img {
+  width: 100%;
+  height: 100%;
+}
+.projects .projects__heading {
+  font-size: 25px;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+
+.projects-cta {
+  width: 100%;
+  background: #4c96d7;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .color-blue {

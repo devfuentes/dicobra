@@ -1,0 +1,16 @@
+.servicios {
+  width: 100%;
+  padding: 2rem;
+  background: $black;
+  color: $blue;
+  margin-bottom: 0;
+
+  & .servicios__title {
+    font-weight: $font-heavy;
+  }
+
+  & .servicio__name {
+    font-family: $secondary-font;
+    font-size: 30px;
+  }
+}

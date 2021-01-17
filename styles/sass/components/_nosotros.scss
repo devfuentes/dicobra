@@ -1,0 +1,26 @@
+.nosotros {
+  padding: 2rem;
+  p {
+    line-height: calc(1em + 7px);
+    margin: 0;
+  }
+}
+
+.mision {
+  background: $gray-section;
+  padding: 5rem;
+  width: 100%;
+  margin-bottom: 0;
+
+  & .mision__title {
+    font-weight: $font-black;
+    font-size: 25px;
+    line-height: calc(1em + 7px);
+  }
+
+  & .mision__text {
+    padding: 0 1rem;
+    line-height: calc(1em + 7px);
+    margin-bottom: 0;
+  }
+}

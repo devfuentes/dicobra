@@ -120,12 +120,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/proyecto.jpg": {
+		"ft": 16384,
+		"iS": 319638,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/proyecto.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/nosotros.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nosotros.html",
 		"oF": 0
 		},
 	"/styles/css/fonts/Avenir-black.otf": {
@@ -261,6 +280,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/styles/sass/components/_nosotros.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styles/sass/components/_nosotros.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/styles/sass/components/_projects.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styles/sass/components/_projects.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/styles/sass/components/_search.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -270,6 +315,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/sass/components/_search.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/styles/sass/components/_servicios.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styles/sass/components/_servicios.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

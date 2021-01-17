@@ -1,7 +1,21 @@
-.contact {
+.contact,
+.contact-page {
   width: 100%;
   background: $text-gray;
   margin-bottom: 0;
-  mix-blend-mode: multiply;
   padding-bottom: 2rem;
+}
+
+.contact-page {
+  padding: 5rem;
+
+  & .contact-page__title {
+    color: $white;
+    font-family: $secondary-font;
+    margin-bottom: 3rem;
+  }
+
+  & .contact-page__subtitle {
+    font-family: $secondary-font;
+  }
 }
