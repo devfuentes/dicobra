@@ -131,6 +131,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/proyecto2.jpg": {
+		"ft": 16384,
+		"iS": 61080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/proyecto2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/proyecto3.jpg": {
+		"ft": 16384,
+		"iS": 40674,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/proyecto3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/video/conocenos.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -154,6 +176,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/incio-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/inicio-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/inicio-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
