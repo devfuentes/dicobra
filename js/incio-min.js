@@ -1,0 +1,1 @@
+window.addEventListener("load",(function(){alert("Funcioa");var e=document.getElementsByClassName("faq");function n(){alert("HOLI")}for(let t=0;t<e.length;t++)e[t].addEventListener("click",n)}));

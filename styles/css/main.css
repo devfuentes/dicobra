@@ -7077,7 +7077,7 @@ body {
   list-style: none;
 }
 .footer .footer__list li {
-  padding: 0 2em;
+  padding: 0 1.3em;
   position: relative;
 }
 .footer .footer__list li:last-child, .footer .footer__list li:first-child {
@@ -7102,7 +7102,7 @@ body {
 }
 .footer .footer__link {
   color: #1c1c1c;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -7197,13 +7197,13 @@ body {
   border: 0;
 }
 .search .search-form__select--type {
-  width: 30%;
+  width: 35%;
   padding-left: 10px;
   padding-right: 40px;
   border-right: solid 1px #c4c4c4;
 }
 .search .search-form__row--range {
-  width: 70%;
+  width: 65%;
   display: flex;
 }
 .search .search-form__select--range {
@@ -7422,6 +7422,14 @@ body {
   margin-bottom: 0;
 }
 
+.video-background {
+  width: 100%;
+}
+
 .color-blue {
   color: #4c96d7;
+}
+
+.hidden {
+  display: none;
 }

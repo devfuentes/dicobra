@@ -13,7 +13,7 @@
     list-style: none;
 
     li {
-      padding: 0 2em;
+      padding: 0 1.3em;
       position: relative;
 
       &:last-child,
@@ -43,7 +43,7 @@
 
   & .footer__link {
     color: $black;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
   }
 }
